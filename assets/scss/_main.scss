@@ -37,3 +37,15 @@ main {
     height: 100%;
   }
 }
+
+section + div {
+  display: flex;
+  gap: 2rem;
+  margin-block: 3rem;
+
+  img {
+    width: 25%;
+    height: 250px;
+    object-fit: cover;
+  }
+}

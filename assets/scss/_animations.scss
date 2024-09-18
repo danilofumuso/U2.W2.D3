@@ -1,0 +1,22 @@
+.hero-animation {
+  animation: fadeIn 3s, slide 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide {
+  from {
+    translate: 0 -150px;
+  }
+
+  to {
+    translate: 0 0;
+  }
+}

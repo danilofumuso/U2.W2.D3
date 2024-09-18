@@ -47,8 +47,31 @@ body {
   font-size: 18px;
 }
 
+.hero-animation {
+  animation: fadeIn 3s, slide 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slide {
+  from {
+    translate: 0 -150px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
 header {
   background-color: rgb(110, 76, 212);
+  position: sticky;
+  top: 0px;
+  z-index: 900;
 }
 
 nav {
@@ -105,4 +128,16 @@ main {
 .hero img {
   width: 100%;
   height: 100%;
+}
+
+section + div {
+  display: flex;
+  gap: 2rem;
+  margin-block: 3rem;
+}
+section + div img {
+  width: 25%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
