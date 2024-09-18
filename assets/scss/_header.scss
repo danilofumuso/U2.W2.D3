@@ -1,0 +1,21 @@
+header {
+  background-color: $bg-header;
+}
+
+nav {
+  padding-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  img {
+    width: $logo-width;
+  }
+  a {
+    font-size: $font-regular;
+    color: $text-light-color;
+  }
+}

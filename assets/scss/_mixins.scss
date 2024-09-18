@@ -1,0 +1,14 @@
+@mixin mainHeading {
+  font-size: $font-mainHeading;
+  color: $text-dark-color;
+  letter-spacing: 1.5px;
+}
+
+@mixin button($button-bg) {
+  background-color: $button-bg;
+  padding: 10px 25px;
+  color: $text-light-color;
+  border-radius: 20px;
+  border: none;
+  margin-inline: 1rem;
+}
