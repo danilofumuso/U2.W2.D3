@@ -19,29 +19,32 @@ body {
 
 .btn-1 {
   background-color: #0e6cff;
-  padding: 10px 25px;
+  padding: 15px 40px;
   color: #f4f4f4;
-  border-radius: 20px;
+  border-radius: 30px;
   border: none;
   margin-inline: 1rem;
+  font-size: 18px;
 }
 
 .btn-2 {
   background-color: #ff8700;
-  padding: 10px 25px;
+  padding: 15px 40px;
   color: #f4f4f4;
-  border-radius: 20px;
+  border-radius: 30px;
   border: none;
   margin-inline: 1rem;
+  font-size: 18px;
 }
 
 .btn-3 {
   background-color: #4caf50;
-  padding: 10px 25px;
+  padding: 15px 40px;
   color: #f4f4f4;
-  border-radius: 20px;
+  border-radius: 30px;
   border: none;
   margin-inline: 1rem;
+  font-size: 18px;
 }
 
 header {
@@ -87,7 +90,7 @@ main {
   max-width: 50%;
 }
 .hero h1 {
-  font-size: 48px;
+  font-size: 80px;
   color: rgb(4, 4, 10);
   letter-spacing: 1.5px;
 }
@@ -96,7 +99,7 @@ main {
 }
 .hero p {
   margin-block: 3rem;
-  font-size: 24px;
+  font-size: 40px;
   font-style: italic;
 }
 .hero img {

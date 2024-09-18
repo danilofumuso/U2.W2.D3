@@ -6,9 +6,10 @@
 
 @mixin button($button-bg) {
   background-color: $button-bg;
-  padding: 10px 25px;
+  padding: 15px 40px;
   color: $text-light-color;
-  border-radius: 20px;
+  border-radius: 30px;
   border: none;
   margin-inline: 1rem;
+  font-size: $font-regular;
 }
